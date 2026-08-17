@@ -7,7 +7,7 @@ st.set_page_config(
     layout="wide",
 )
 
-ASSETS = Path(__file__).parent / "assets"
+ASSETS = Path(__file__).parent
 
 st.title("🚗 영동고속도로 교통 데이터 분석")
 st.caption("서창JC ↔ 신갈JC 구간 · 2024년 10월 데이터 기반 Python 데이터 분석 프로젝트")
